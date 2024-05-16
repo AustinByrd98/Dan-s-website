@@ -3,12 +3,13 @@ const Contact =()=>{
         <div>
             <h2>Reach Out</h2>
             <div>
-                <title>Phone Number</title>
+                <h3>Phone Number</h3>
                 <p>(980)-643-6495</p>
-                <title>Email</title>
+                <h3>Email</h3>
                 <p></p>
             </div>
 
         </div>
     )
 }
+export default Contact
