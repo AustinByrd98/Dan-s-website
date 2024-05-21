@@ -1,14 +1,14 @@
 
 
-export default function Footer (){
+const Footer = () =>{ 
     return(
         <div>
-             <footer class="footer">
-      <div class="container">
-        <a href="#hero" class="back-to-top" aria-label="go back to top">
-          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+             <footer>
+      <div>
+        <a href="#hero" aria-label="go back to top">
+          <i aria-hidden="true"></i>
         </a>
-        <div class="social-links">
+        <div>
          
           <a
             href="https://www.instagram.com/barnhardtfarm/"
@@ -16,7 +16,6 @@ export default function Footer (){
             rel="noopener noreferrer"
             aria-label="instagram"
           >
-            <i class="fa-brands fa-instagram"></i>
           </a>
           <a
             href="https://www.facebook.com/barnhardt.farm"
@@ -24,19 +23,11 @@ export default function Footer (){
             rel="noopener noreferrer"
             aria-label="facebook"
           >
-            <i class="fa-brands fa-facebook"></i>
+            <i></i>
           </a>
         </div>
         <hr />
-        <p class="footer__text">
-          &copy; <span id="year"></span> - Template by
-          <a
-            href="https://github.com/AnilSeervi"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Anil Seervi</a
-          >. <br />Made with &hearts;
-        </p>
+       
       </div>
     </footer>
 
@@ -44,3 +35,5 @@ export default function Footer (){
         </div>
     )
 }
+
+export default Footer

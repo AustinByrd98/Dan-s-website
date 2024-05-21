@@ -2,7 +2,7 @@ import react from "react"
 
 const Header =()=>{
     return(
-    <h1>Barnheart Farm & Vineyard</h1>
+    <h1 className="header .title">Barnheart Farm & Vineyard</h1>
     )
 }
 
