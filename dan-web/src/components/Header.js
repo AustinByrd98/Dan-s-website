@@ -1,8 +1,9 @@
 import react from "react"
 
 const Header =()=>{
-    return(
+    return(<div>
     <h1 className="header .title">Barnheart Farm & Vineyard</h1>
+    </div>
     )
 }
 

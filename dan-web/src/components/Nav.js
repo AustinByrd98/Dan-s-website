@@ -1,15 +1,21 @@
-import container from 'react-bootstrap/Container'
-import nav from 'react-bootstrap/Nav'
-import navbar from 'react-bootstrap/Navbar'
+import Container from 'react-bootstrap/Container'
+import Nav from 'react-bootstrap/Nav'
+import Navbar from 'react-bootstrap/Navbar'
+// import 'bootstrap/dist/css/bootstrap.css';
 
-const nav = ()=>{
+const WebNav = ()=>{
     return(
-        <navbar expand="lg" classname="bg-body-tertiary">
-            <navbar.Brand>Dan Cosgrove</navbar.Brand>
-            
-
-
-
+        <navbar expand="lg" className="bg-body-tertiary">
+            <container>
+                <Navbar.Brand>Dan Cosgrove</Navbar.Brand>
+                <Nav>
+                <Nav.link>About me</Nav.link>
+                <Nav.link>Contact</Nav.link>
+                <Nav.link>texting</Nav.link>
+                </Nav>
+                </container>
         </navbar>
     )
 }
+
+export default WebNav
